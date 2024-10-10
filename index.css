@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*começo do header*/
 header{
     display: flex;
     justify-content: space-between;
@@ -11,8 +11,7 @@ header{
     padding-right: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border: dotted, 3px, #f7f7f7;
-
+    border-bottom: dotted 3px #f7f7f7;
 }
 #img{
     max-width: 100%;
@@ -24,10 +23,6 @@ header{
 #barrap{
     display: flex;
     justify-content: space-evenly;
-    
-    
-
-
 }
 .fonthead{
         font-family: 'Poppins', sans-serif;
@@ -35,3 +30,74 @@ header{
         color: #212529;
         margin-right: 2em;
 }
+/*fim do header*/
+/*começo do footer*/
+
+/*parte branca do footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 0, 0);
+    border-top: dotted 3px #f7f7f7;
+  }
+  #footerbranco{
+    transform: ;
+    padding: 5rem;
+    width: 57%;
+    height: 50%;
+    background-color: rgb(255, 123, 0);
+  }
+  input{
+    padding: 0.5rem;
+    width: 11.5rem;
+    background-color: rgb(255, 208, 0)
+  }
+  label{
+    font-style: italic;
+
+  }
+  #botao{
+    background-image: url(botaoEnviar.png);
+    background-size: cover;
+    background-color: #2a2a2a;
+    width: 3em;
+    height: 3em;
+  }
+  #cadastro{
+    width: 56%;
+    height: 85%;
+    background-color: rgb(102, 255, 0);
+  }
+  #cadastrar{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+    background-color: rgb(25, 191, 233);
+
+  }
+  #subfont{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px, 40.8px;
+    color:#2a2a2a;
+    margin-bottom: 0.2rem;
+    background-color: #0f12ee;
+  }
+  #subfont2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #a1a1a1;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    background-color: #d40fee;
+  }
+
+  /*parte preta do footer*/
+  #footerpreto{
+    padding: 10rem;
+    background-color: #2a2a2a;
+  }
+ 
